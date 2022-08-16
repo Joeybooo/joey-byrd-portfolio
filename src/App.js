@@ -1,26 +1,26 @@
 import React from 'react';
-import './App.css';
-import About from './components/About'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Homepage from './components/Homepage';
-import Portfolio from './components/Portfolio';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Pages/Home';
+
+import ProjectsInfo from './components/Pages/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
-      <main>
-        <Header></Header>
-        <Nav></Nav>
-        <Homepage></Homepage>
-        <About></About>
-        <Contact></Contact>
-        <Portfolio></Portfolio>
-        <Footer></Footer>
-      </main>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Nav />
+        <Route exact path='/' component={Home} />
+        
+        <Route exact path='/projects' component={ProjectsInfo} />
+        <Route exact path='/contacts' component={Contact} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
