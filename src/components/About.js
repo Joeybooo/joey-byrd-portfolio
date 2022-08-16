@@ -13,7 +13,7 @@ function About() {
                 <p> contact info stuff
                     <a href='mailto:joeybyrd9999@gmail.com'>joeybyrd9999@gmail.com</a>
                     <a href='https://github.com/Joeybooo'>Github</a>
-                    <a href='https://github.com/Joeybooo'>Link</a>
+                    <a href='https://www.linkedin.com/in/joey-byrd-b227191a9/'>LinkedIn</a>
                 </p>
             </div>
         </div>
