@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+function Contact(props) {
     return (
         <div className="contact-card">
             <div className="card">

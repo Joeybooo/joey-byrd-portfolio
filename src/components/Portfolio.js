@@ -1,21 +1,21 @@
 import React from "react";
 
-function Portfolio() {
+function Portfolio(props) {
     return (
         <div className="card port-card">
             <div className="img-container">
-                <img></img>
+                <img alt={props.name} src={props.image}/>
             </div>
             <div className="content">
                 <ul>
                     <li>
-                        <strong>Name:</strong> {}
+                        <strong>Name:</strong> {props.name}
                     </li>
                     <li>
-                        <strong>Project:</strong> {}
+                        <strong>Project:</strong> {props.project}
                     </li>
                     <li>
-                        <strong>Demo:</strong> {}
+                        <strong>Demo:</strong> {props.location}
                     </li>
                 </ul>
             </div>
