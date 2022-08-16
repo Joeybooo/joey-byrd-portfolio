@@ -4,12 +4,14 @@ import About from './components/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Contact from './components/Contact';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
       <main>
         <Header></Header>
+        <Nav></Nav>
         <About></About>
         <Contact></Contact>
         <Footer></Footer>
