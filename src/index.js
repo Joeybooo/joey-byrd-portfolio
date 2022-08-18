@@ -1,4 +1,3 @@
-//how the file should look like
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

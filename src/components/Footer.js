@@ -1,12 +1,17 @@
-import React from 'react';
+//Needs links to my Github, Linkedin, and a Third Platform?
 
-// Could add icons for links to socials like insta or github for later development
-function Footer(props) {
-    return (
-        <div className='footer bg-info'>
-            <p>Joey Byrd</p>
-        </div>
-    );
+import React from "react";
+
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="content has-text-centered">
+        <p>
+            Joey Byrd
+        </p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
